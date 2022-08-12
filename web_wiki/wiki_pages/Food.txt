@@ -1,0 +1,4 @@
+lays forno 150c <br>
+coffee 250c <br>
+fatayer 75c <br>
+lays max 9999c

@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<H1> Welcome </H1>
+<div name= "wiki_pages">
+    <p> here is a list of all available pages </p>
+    <ul>
+        {{range .Pages}}
+            {{.}}
+        {{end}}
+    </ul>
+</div>
+
+<div>
+    <form action="/create" method="POST">
+        <div><label for="create_field">First name:</label><input type="text" name="create_field"></div>
+        <div><input type="submit" value="create"></div>
+    </form>
+</div>
+
+</body>
+</html>
